@@ -1,8 +1,9 @@
+import randomColor from 'randomcolor';
+
 export default function Button(props) {
-  const color = //need to figure out
+  const randomInteger
   return (
-    <button type="input" style={{
-      background-color:
+    <button type="input" onClick= {() => {
     }}>
       Generate
     </button>

@@ -2,13 +2,12 @@
 
 Design and develop a random color generator web application using React. This application will show a random color when a button is clicked:
 
-[ ] Read the Breaking Down Tasks Into TODOs page on the Learning Platform
-[ ] Create a `Generate` button
-[ ] create a div that contains text `Generated Color: <background color hex code> `
-[ ] pressing the generate button should generate a new color
-[ ] div should take the generated color as background color
+[ ] Create a `Generate` Button in button.js file and a App.js file that contains text `Generated Color: <background color hex code> `
+[ ] pressing the generate button should generate a new color: choose the library to generate random color
+[ ] div should take the generated color as background color and print out the hex name of the color.
+[ ] try out figma in order to style the page
 
-    Our suggestions for breaking down the task into TODOs:
+Our suggestions for breaking down the task into TODOs:
 
 If you need a reminder of how we did this last week, watch the video showing breaking down tasks
 This time, you will need to think about design in the browser: Design the web app with a tool like Figma or by sketching the design out on paper

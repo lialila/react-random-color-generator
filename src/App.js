@@ -1,4 +1,5 @@
 import './App.css';
+import randomColor from 'randomcolor';
 import Button from './Button.js';
 
 export default function App(props) {
