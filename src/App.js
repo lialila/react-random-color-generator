@@ -1,9 +1,6 @@
-// import './App.css';
 import randomColor from 'randomcolor';
 import { useState } from 'react';
 
-// pressing the generate button should generate a new color: choose the library to generate random color
-// div should take the generated color as background color and print out the hex name of the color.
 export default function App() {
   const [color, setColor] = useState('');
   return (
@@ -16,6 +13,7 @@ export default function App() {
         margin: '20px',
         padding: '20px',
         fontWeight: '500',
+        transition: 'all 1s ease',
       }}
     >
       <input
