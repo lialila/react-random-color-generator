@@ -16,7 +16,7 @@ export default function App() {
         transition: 'all 1s ease',
       }}
     >
-      Generated Color: background-color {color}
+      Generated Color: {color}
       <br />
       <input
         style={{
