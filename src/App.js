@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div
       style={{
-        // eslint-disable-next-line @upleveled/upleveled/no-unnecessary-interpolations
         backgroundColor: `${color}`,
         border: '2px solid #14213d',
         letterSpacing: '2px',
