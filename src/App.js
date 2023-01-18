@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div
       style={{
-        backgroundColor: `${color}`,
+        backgroundColor: color,
         border: '2px solid #14213d',
         letterSpacing: '2px',
         borderRadius: '15px',
