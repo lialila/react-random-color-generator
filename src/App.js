@@ -16,6 +16,8 @@ export default function App() {
         transition: 'all 1s ease',
       }}
     >
+      Generated Color: background-color {color}
+      <br />
       <input
         style={{
           borderRadius: '7px',
@@ -25,7 +27,6 @@ export default function App() {
           console.log('event.currentTarget.value', event.currentTarget.value);
         }}
       />
-      <br />
       <button
         style={{
           backgroundColor: '#14213d',
@@ -37,8 +38,6 @@ export default function App() {
       >
         Generate
       </button>
-
-      <p>Generated Color: background-color {color}</p>
     </div>
   );
 }
