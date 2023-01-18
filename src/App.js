@@ -2,9 +2,10 @@ import randomColor from 'randomcolor';
 import { useState } from 'react';
 
 export default function App() {
-  const [color, setColor] = useState('');
+  const [color, setColor] = useState('background color hex code');
   return (
     <div
+      className=".big"
       style={{
         backgroundColor: color,
         border: '2px solid #14213d',
@@ -16,7 +17,7 @@ export default function App() {
         transition: 'all 1s ease',
       }}
     >
-      Generated Color: {color}
+      <div>Generated Color: {color}</div>
       <br />
       <input
         style={{
