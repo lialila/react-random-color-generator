@@ -4,8 +4,7 @@ import { useState } from 'react';
 export default function App() {
   const [color, setColor] = useState('background color hex code');
   return (
-    <div
-      className=".big"
+    <main
       style={{
         backgroundColor: color,
         border: '2px solid #14213d',
@@ -39,6 +38,6 @@ export default function App() {
       >
         Generate
       </button>
-    </div>
+    </main>
   );
 }
